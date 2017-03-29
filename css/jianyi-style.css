@@ -1,0 +1,419 @@
+div {
+	/*box-shadow: 0 0 1px red;*/
+}
+.body{
+	background: #e9e9e9;
+}
+.clear {
+	clear: both;
+}
+.jy-logo{
+	box-sizing: border-box;
+	padding: 5px 0;
+	width: auto;
+	height: 50px;
+}
+.jy-white{
+	background: #FFFFFF;
+}
+.jy-blue{
+	background: #2f9efd;
+}
+.jy-bg-info{
+	padding: 6px 12px;
+	border-radius: 5px;
+	background: #EEEEEE;
+	color: #666666;
+}
+.jy-border {
+	border: 1px solid #C0C0C0;
+}
+
+.jy-border h3 {
+	margin: 0;
+	margin-bottom: 23px;
+	font-size: 1.1em;
+	color: #747474;
+	padding: 32px 0 0 0;
+}
+
+.jy-login-content {
+	padding: 66px 0 66px 0;
+}
+
+.jy-login-content .jy-login-banner {
+	width: 100%;
+}
+
+.jy-line {
+	background: #eee;
+	height: 1px;
+	margin-top: 40px;
+}
+.jy-line-15 {
+	background: #eee;
+	height: 1px;
+	margin-top: 15px;
+}
+.jy-line-open {
+	/*background: #eee;*/
+	margin-top: 80px;
+}
+.jy-line-open40 {
+	/*background: #eee;*/
+	margin-top: 40px;
+}
+.jy-line-open25 {
+	/*background: #eee;*/
+	margin-top: 20px;
+}
+.jy-line-open20 {
+	/*background: #eee;*/
+	margin-top: 15px;
+}
+.jy-third-part {
+	padding: 20px 52px 35px 30px;
+}
+
+.extends-third-part-icon,
+.jy-third-part .sina,
+.jy-third-part .linkin,
+.jy-third-part .baidu,
+.jy-third-part .qq,
+.jy-third-part .google,
+.jy-third-part .github,
+.jy-third-part .wechat {
+	display: inline-block;
+	background-image: url("../img/jianyi-login-third-party.png");
+	background-repeat: no-repeat;
+	margin-right: 5px;
+	width: 32px;
+	height: 32px;
+}
+
+.jy-third-part {
+	padding: 20px 52px 35px 30px;
+}
+
+.jy-third-part span {
+	display: block;
+	font-size: 1.0em;
+	color: #666;
+	margin-bottom: 11px;
+}
+
+.jy-third-part .sina {
+	background-position: 0 0;
+}
+
+.jy-third-part .linkin {
+	background-position: -37px 0;
+}
+
+.jy-third-part .baidu {
+	background-position: -74px 0;
+}
+
+.jy-third-part .qq {
+	background-position: -112px 0;
+}
+
+.jy-third-part .google {
+	background-position: -149px 0;
+}
+
+.jy-third-part .github {
+	background-position: -186px 0;
+}
+
+.jy-third-part .wechat {
+	background-position: -224px 0;
+}
+
+.jy-regist {
+	margin-top: 20px;
+}
+
+.jy-regist span {
+	display: inline-block;
+}
+
+.foot-menu {
+	width: 100%;
+	border-bottom: 1px solid #e0e0e0;
+	font-size: 14px;
+	overflow: hidden;
+	margin-top: 15px;
+}
+
+.foot-menu a {
+	color: #666;
+	font-family: 'microsoft yahei';
+	text-decoration: none;
+	display: block;
+	height: 20px;
+	float: left;
+	margin-bottom: 10px;
+}
+
+.foot-menu a:hover {
+	color: #cc0000;
+}
+
+.foot-menu span {
+	color: #d1d1d1;
+	padding: 0 8px;
+	display: block;
+	float: left;
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.foot_contact {
+	font-family: 'microsoft yahei';
+	font-size: 12px;
+	overflow: hidden;
+	width: 100%;
+}
+
+.foot_contact .qq {
+	display: block;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 20px;
+	background: url(../img/jianyi-qq-icon.png) left 10px no-repeat;
+	margin-right: 9px;
+	color: #666;
+	text-decoration: none;
+}
+
+.foot_contact .qq:hover {
+	background: url(../img/jianyi-qq-icon.png) left -25px no-repeat;
+}
+
+.foot_contact .weibo {
+	display: block;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 23px;
+	background: url(../img/jianyi-weibo-icon.png) left 10px no-repeat;
+	margin-right: 9px;
+	color: #666;
+	text-decoration: none;
+}
+
+.foot_contact .weibo:hover {
+	background: url(../img/jianyi-weibo-icon.png) left -25px no-repeat;
+}
+
+.foot_contact .email {
+	display: block;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 20px;
+	background: url(../img/jianyi-mail-icon.png) left 11px no-repeat;
+	margin-right: 9px;
+	color: #666;
+	text-decoration: none;
+}
+
+.foot_contact .email:hover {
+	background: url(../img/jianyi-mail-icon.png) left -27px no-repeat;
+}
+
+.foot_contact .phone {
+	display: block;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 20px;
+	background: url(../img/jianyi-phone-icon.png) left 11px no-repeat;
+	color: #666;
+}
+
+.foot_contact span {
+	display: block;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	color: #666;
+}
+
+.interval {
+	color: #d1d1d1;
+	padding: 0 6px;
+	margin: 0px;
+}
+
+.foot_copyright {
+	font-size: 12px;
+	color: #9c9c9c;
+	font-family: 'microsoft yahei';
+	width: 100%;
+}
+
+.foot_copyright span {
+	display: block;
+	float: left;
+	height: 21px;
+	line-height: 21px;
+}
+
+.foot_copyright a {
+	display: block;
+	float: left;
+	height: 21px;
+	line-height: 21px;
+}
+
+.foot_copyright a img {
+	height: 21px;
+	padding-left: 10px;
+}
+
+footer {
+	border-top: 1px solid #F0F0F0;
+	padding-bottom: 20px;
+	background: #FFFFFF;
+}
+
+
+/*忘记密码*/
+.jy-forget{
+	background: #FFFFFF;
+	margin-bottom: 70px;
+	border: 1px solid #f0f0f0;
+}
+.jy-step {
+	height: 40px;
+	background: #428bca;
+	color: #FFFFFF;
+	padding: 10px 15px;
+}
+.jy-steped {
+	height: 40px;
+	background: #DDDDDD;
+	color: #666666;
+	padding: 10px 15px;
+}
+.jy-step-1 {
+	box-sizing: border-box;
+	position: absolute;
+	top: 0;
+	left: 0px;
+	border-color: transparent transparent #FFFFFF #FFFFFF;
+	border-style: solid;
+	border-width: 20px 5px 20px 5px;
+}
+
+.jy-step-2 {
+	box-sizing: border-box;
+	position: absolute;
+	right: 0px;
+	top: 0;
+	border-color: #FFFFFF #FFFFFF transparent transparent;
+	border-style: solid;
+	border-width: 20px 5px 20px 5px;
+}
+
+.step-mark {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #428bca;
+	background: #FFFFFF;
+	border-radius: 10px;
+	border: 1px solid #007AFF;
+}
+.step-marked {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #999999;
+	border-radius: 10px;
+	border: 1px solid #999999;
+}
+.jy-auth-code {
+	display: inline-block;
+	margin-left: 5px;
+	margin-top: 0;
+	width: 135px;
+}
+/*用户注册*/
+.jy-regist-ok{
+	width: 50px;
+}
+.jy-regist-span{
+	font-weight: bold;
+	font-size: 20px;
+	color: #428bca;
+	text-shadow: 0 0 1px #333333;
+}
+.jy-regist-after{
+	margin-bottom: 120px;
+}
+.jy-email-no{
+	margin-left: 15px;
+}
+/*我的简易*/
+.jy-input-search{
+	position: relative;
+}
+.jy-search{
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.jy-text-muted{
+	font-size: 14px;
+	line-height: 24px;
+	color: #656565;
+}
+.jy-show-more{
+	padding: 12px 0;
+}
+.jy-info{
+	padding: 15px;
+}
+.jy-index-head{
+	width:100px;
+	height: 100px;
+}
+.jy-button{
+	cursor: pointer;
+	padding: 5px 10px;
+	box-shadow: 0 0 1px #999999;
+}
+/*关联账号*/
+.jy-three-logo{
+	display: block;
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-moz-user-select: none;
+	pointer-events: none;
+}
+.jy-header{
+	display: block;
+	width: 100px;
+	height: 100px;
+	margin: 0 auto;
+	padding: 5px;
+	border-radius: 50%;
+	box-shadow: 0 0 1px #999999;
+}
+@media ( min-width: 1200px) {
+	.container-custom {
+		width: 960px;
+	}
+}
